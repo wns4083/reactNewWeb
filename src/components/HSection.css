@@ -1,0 +1,59 @@
+
+.hContainer{
+   /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: cover;
+    overflow: hidden;
+}
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.hContainer > h1{
+    color: #fff;
+    font-size: 72px;
+    margin-top: -300px;
+}
+.hContainer > h2{
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+.hContainer> p{
+    
+    margin-top: 9px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hBtns{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.hBtns button[class*=btn]{
+    width: 230px;
+}
+.hBtns .btn{
+    margin: 10px;
+}
+.btnPrimary{
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: #fff;
+}
+.fontAwesomeCA{
+    margin-left: 10px;
+    top: 2px;
+}
