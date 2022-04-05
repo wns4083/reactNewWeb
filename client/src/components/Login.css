@@ -1,0 +1,119 @@
+.signWrrap{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.signWrrap button{ border-radius: 5px;
+        background-color: rgb(241, 236, 227);
+        border: none;
+        color: #222020;
+        font-weight: bold;
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+        line-height: 40px;
+}
+.searchId{
+    display: flex;
+    justify-content: center;
+}
+.userForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.userForm>.inputBox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #524d49;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+.userForm>.inputBox>.ctrWrrap{
+    float:left;
+}
+.userForm label{
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.userForm label:last-child{
+    margin-top: 10px;
+}
+.userForm label>input{
+    width: 250px;
+}
+.controller{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.controller>button{
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+/* userLists */
+.userLists{
+    border: 1px solid #222020;
+    border-radius: 1em;
+    margin: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 150px;
+    
+    display: flex;
+    
+    align-items: center;
+}
+.userLists>.userIdx, .userIds, .userPwds{
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.userLists>.userIdx{
+    width: 15%;
+    
+}
+.userLists>.userIds{
+    width: 30%;
+}
+.userLists>.userPwds{
+    width: 30%;
+}
+
+.userLists>.changeInfos{
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userLists>.changeInfos>.innerBtn{
+    width:100%;
+    display: flex;
+}
+.userLists>.changeInfos>.innerBtn button{
+    width: 80px;
+}
+.userLists>.changeInfos>.innerBtn>.changeInput{
+    border-top: 3px;
+}
